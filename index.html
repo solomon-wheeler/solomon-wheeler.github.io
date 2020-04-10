@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<title>Solly's Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel= "stylesheet" href = "style.css" type = "text/css"> <!-- For Font awesone icons at the bottom -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- THis is where font awesome icons come from could upgrade to v5 at some point, but not using any of the new features on this website -->
+<link rel="stylesheet" href="w3.css" type = "text/css">>
+
+<!--All of the style stuff is in style.css-->
+<style> 
+</style>
+<body>
+
+<!-- THis is the first SUPER big photo -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle " style="white-space:nowrap;">
+    <span class="w3-center w3-xxlarge w3-wide w3-animate-left w3-padding-large w3-black w3-hover-white w3-hover-text-black ">   Solly Wheeler    </span>
+  </div>
+</div>
+
+<!-- THis is the first containes-->
+<div class="w3-content w3-block w3-animate-left w3-padding-64 w3-pale-blue" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <!-- Want to add an emoji here, dosent work with current font in blink but could add in future -->
+  <p class =" w3-center">Hi! I'm  Solly</p>
+  <p class = "w3-center" id = "demo" >Mre text</p>
+  <p class = "w3-center"> And I'm in year 12</p>
+  <p class = "w3-center"> Welcome to this website I made to showcase my projects</p>
+  <p class = "w3-center"> Unfortunately there aren't many of them at the moment</p>
+  <p id="demo" ></p>
+  </div>
+</div>
+
+<!-- Second slightly smaller image -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+<!-- Second text section-->
+<div class="w3-content w3-container w3-padding-64 w3-animate-left" id="about">
+<h3 class="w3-center">Reading Buses Project</h3>
+<div class="w3-row">
+  <div class="w3-col l6 s12 w3-center"><p>This code gets the scheduled arrival times of buses
+  and there actual arrival times, and uses this to work out how likely your
+  bus is to be on time based on historical data, it does this by</p></div>
+  <div class="w3-col l6 s12 w3-center"><p>Link coming soon</p></div>
+</div>
+<div class="w3-row">
+<h3 class="w3-center l12">Podcast </h3>
+<div class="w3-col l6 s12 w3-center"><p>I was one of the editors on the Youth Rising Podcast, give it a listen! </p></div>
+  <div class="w3-col l6 s12 w3-center"><a href ="https://pod.link/1496801209"> <img src ="podcast.jpg"  width="200" height="200" alt ="The picture is for the youth rising podcast, and will link to this "></img></a></div>	
+</div>
+<h3 class ="w3-center"> This website</h3>
+<div class="w3-row">
+
+<div class="w3-col l6 s12 w3-center"><p> This website was made primarily using HTML, aswell as w3.css and css for sytling it, this was mainly because w3.css is responsive, so hopefully this website dosen't look terrible on mobile, and becasue I hate css, so anything that meant I had to right less of it was highly appreciated. I learnt how to do the parralax effect using w3 schools, and I learnt the Java script nesscary for the changing age from there aswell. You can see the all of the source code for this website using by clicking on the image  </p></div>
+<div class="w3-col l6 s12 w3-center"><a href ="https://pod.link/1496801209"> <img src ="GitHub.png"  width="200" height="200" alt ="The picture is of github, and links to the repository for this website"></img></a></div>	
+</div>
+</div>
+<!---div class="w3-row">
+<h3 class="w3-center l12"> </h3>
+<div class="w3-col l6 s12 w3-center"><p> </p></div>
+  <div class="w3-col l6 s12 w3-center"></div>	
+  </div>
+</div>
+</div>
+-->
+<!-- third parralx image-->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide"></span>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+<h5 class =" w3-hide-small w3-button w3-pale-blue" ><a href = "index.html"> Take me back to the top, I want to read it all again!</a></h5>
+<h4 class ="w3-hide-medium w3-hide-large w3-button w3-pale-blue "><a href = "index.html">Back to top</h4>
+
+  <div class="w3-xlarge w3-section">
+    <a href ="mailto:solly.wheeler@gmail.com" class = "fa fa-envelope"></a>
+	<a href="#" class="fa fa-linkedin"></a>
+    <a href="https://twitter.com/sxlly_w" class="fa fa-twitter"></a>
+	<a href="https://github.com/solomon-wheeler" class="fa fa-github"></a>
+
+  </div>
+  <p>Made using <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>, HTML, Javascript and CSS</p>
+  <p>By Solly Wheeler in 2019</p>
+  <p>Hosted on <a href ="https://pages.github.com/" title = "github pages" class="w3-hover-text-pink"> github pages</a> </p>
+</footer>
+<script src ="scripts.js"></script> 
+
+
+</body>
+</html>
+<!--<script>
+var Days = (new Date() - new Date(2002, 09, 08));
+Days = Math.round(Days/(86400000));
+var Years = Math.floor(Days /(365));
+document.getElementById("demo").innerHTML = Days +" days or" + Years
+</script>-->

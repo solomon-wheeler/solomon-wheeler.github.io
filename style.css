@@ -1,0 +1,52 @@
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 70px;
+  text-align: centre;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+.fa:hover {
+    opacity: 0.7;
+    background: #ff6600;
+}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url('parallax4.jpg');
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("parallax3.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("parallax1.jpg");
+  min-height: 400px;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones ( from w3 schools) */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
