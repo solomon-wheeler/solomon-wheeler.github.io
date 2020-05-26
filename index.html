@@ -3,16 +3,13 @@
 <title>Solly's Website</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="pace.js"></script>
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link href="this_load.css" rel="stylesheet" />
-<link rel= "stylesheet" href = "style.css" type = "text/css"> <!-- For Font awesone icons at the bottom -->
+<script src="pace.js"></script> <!-- javascript for loading triagnle  -->
+<!-- link href="this_load.css" rel="stylesheet" > Not needed addes to style css -->
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> <!-- Favicon todo add favicons that are more suitable for mobile and shortcuts -->
+<link rel= "stylesheet" href = "style.css" type = "text/css"> <!-- Overall style sheet including abel font, font awesome icons css , pace and my css  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- THis is where font awesome icons come from could upgrade to v5 at some point, but not using any of the new features on this website -->
-<link rel="stylesheet" href="w3.css" type = "text/css">
+<link rel="stylesheet" href="w3.css" type = "text/css"> <!-- Style sheet for w3 css-->
 <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> <!-- For Font at top of page-->
-<!--All of the style stuff is in style.css-->
-<style>
-</style>
 <body>
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
@@ -21,13 +18,6 @@
     <a href="#other" class="w3-bar-item w3-button w3-hide-small style = " style = " font-family: 'Abel'" > PORTFOLIO</a>
   </div>
 </div>
-  <!-- Navbar on small screens
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
-  </div>-->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle w3-display-hover w3-hide-medium w3-hide-small" style="white-space:nowrap;">
     <span style = "font-family: 'Abel'" class="w3-center w3-xxxlarge w3-wide w3-animate-top w3-padding-large w3-black w3-hover-white w3-hover-text-black ">   Solly Wheeler    </span>
@@ -37,28 +27,27 @@
   </div>
  <div class="w3-row-padding  w3-display-bottommiddle w3-padding-64 w3-hide-small w3-hide-medium">
  	<div class="w3-left w3-container w3-padding-large w3-display-hover " >
- 	<button style = "font-family: 'Abel'" class="w3-btn w3-wide w3-xlarge w3-animate-left w3-black w3-hover-white w3-hover-text-black w3-padding-large ">Linkedin</button>
+ 	<a href="#" style = "font-family: 'Abel'" class="w3-btn w3-wide w3-xlarge w3-animate-left w3-black w3-hover-white w3-hover-text-black w3-padding-large ">Linkedin</a>
  	</div>
 	<div class="w3-right w3-container w3-padding-large w3-display-hover w3-hide-small w3-hide-medium ">
- 	 <button style = "font-family: 'Abel'" class="w3-btn w3-wide w3-xlarge w3-animate-right w3-black w3-hover-white w3-hover-text-black w3-padding-large ">Github</button>
+ 	 <a href="https://github.com/solomon-wheeler" style = "font-family: 'Abel'" class="w3-btn w3-wide w3-xlarge w3-animate-right w3-black w3-hover-white w3-hover-text-black w3-padding-large ">Github</a>
 	</div>
  </div>
 </div>
 
-<!-- THis is the first containes-->
+<!-- THis is the first container 'about me' todo update this-->
 <div class="w3-row  w3-animate-left w3-padding-64 w3-pale-blue" style="max-width:100%" id="about">
-  <h1 class="w3-center">About Me</h3>
-  <!-- Want to add an emoji here, dosent work with current font in blink but could add in future -->
-  <p class =" w3-center">Hi! I'm  Solly Wheeler</p>
+  <h2 class="w3-center">About Me</h2>
+  <p class =" w3-center">Hi! I'm  Solomon (Solly) Wheeler &#128512;</p>
   <p class = "w3-center" id = "demo" ></p>
-  <p class =" w3-center"> Welcome to my website, which I've made to link to showcase some of my proggraming, for which I have uploaded my code on github , aswell as detailing other projects I have been involed in.
-   I do most of my proggramming in python aswell as some vb.net and  HTML, CSS, and Javascript, which I've used to make this website.
+  <p class =" w3-center"> Welcome to my website, which I've made to link to showcase some of my programing, for which I have uploaded my code on github , as well as detailing other projects I have been involved in.
+   I do most of my programming in python as well as some vb.net and  HTML, CSS, and Javascript, which I've used to make this website.
    I'm currently in Year 12, and I'm studying Maths, Physics and Computer Science.
 
    </p>
 
 
-  <p id="demo" ></p>
+  <p></p> <!-- Here to add an extra margin at the bottom which w3.css dosen't support-->
   </div>
 </div>
 
@@ -68,36 +57,46 @@
     <span class="w3-xxlarge w3-text-white w3-wide">Programming</span>
   </div>
 </div>
-<!-- Second text section-->
+
+<!-- Second text section Programing -->
 <div class="w3-content w3-container w3-padding-64 w3-animate-left" id="progamming">
 <h3 class ="w3-center"> Train Data</h3>
 <div class="w3-row">
 
-<div class="w3-col l6 s12 w3-center"><p> This is a program coded in python which uses the national rail open data Historical service Perromanace API,
+<div class="w3-col l6 s12 w3-center"><p> This is a program coded in python which uses the national rail open data Historical service Performance API,
 which allows me to get data on all of the train services for the last year,
- I use this data to ouput the average delay, percent delayed, percent cancelled, operator and delay on arrival,
-  aswell as plotting the delay data on a scatter graph for each service. The data is shown in the users browser,
+ I use this data to output the average delay, percent delayed, percent cancelled, operator and delay on arrival,
+  as well as plotting the delay data on a scatter graph for each service. The data is shown in the users browser,
   I did this by editing html templates I had created in the python script, and by using Plotly's to_html facility for the scatter graphs </p>
   <a href ="example_output.html" style = "font-family: 'Abel'" class="w3-button w3-small w3-white w3-border w3-border-black w3-padding-large ">See Example Output</a></div>
 <div class="w3-col l6 s12 w3-center"><a href ="https://github.com/solomon-wheeler/train_delay"> <img src ="GitHub.png"  width="200" height="200" alt ="The picture is of the github logo, and links to the repository for the train delay program"></img></a></div>
 
 </div>
-<h3 class="w3-center">Train Visulaiser </h3>
+<h3 class="w3-center">Train Visualiser </h3>
 <div class="w3-row">
   <div class="w3-col l6 s12 w3-center"><p>This is a program that I wrote which shows all of the trains on the branches that go through Wokingham Station, it gets there live location from the National Rail API and uses this to work out the time of there next stop
-  aswell as the time of there last stop, it then works out the trains approximate position between stations.
-  The data is visualsied using pygame. I made this program quite along time ago, and although It seems to work I havent done any testing on it,
-  so I'm sure there are lots of bugs I haven't noticed, aswell as this the coding is incredibly messy, so enter the github repository at your own risk.
+  as well as the time of there last stop, it then works out the trains approximate position between stations.
+  The data is visualised using pygame. I made this program quite along time ago, and although It seems to work I haven't done any testing on it,
+  so I'm sure there are lots of bugs I haven't noticed, as well as this the coding is incredibly messy, so enter the github repository at your own risk.
   The image is of an example output.  </p>
   <a href ="example_output_visual.html" style = "font-family: 'Abel'" class="w3-button w3-small w3-white w3-border w3-border-black w3-padding-large ">See Example Output</a>
   </div>
-  <div class="w3-col l6 s12 w3-center"><a href ="https://github.com/solomon-wheeler/train_visualiser"> <img src ="GitHub.png"  width="200" height="200" alt ="The picture is of the github logo, and links to the repository for the train delay program"></img></a></div>
+  <div class="w3-col l6 s12 w3-center"><a href ="https://github.com/solomon-wheeler/train_visualiser"> <img src ="GitHub.png"  width="200" height="200" alt ="The picture is of the github logo, and links to the repository for the train visualisation program"></img></a></div>
+</div>
+<h3 class="w3-center">Graph & Minimum Spanning tree </h3>
+<div class="w3-row">
+  <div class="w3-col l6 s12 w3-center"><p>
+  This program allows for the visualisation of directed and undirected graphs, which can be randomly created or made by the user. The program will then use Primm's algorithm to find the minimum spanning tree for this graph from a specified node
+  </p>
+  <a href ="example_output_graph.html" style = "font-family: 'Abel'" class="w3-button w3-small w3-white w3-border w3-border-black w3-padding-large ">See Example Output</a>
+  </div>
+  <div class="w3-col l6 s12 w3-center"><a href ="https://github.com/solomon-wheeler/graph_MST"> <img src ="GitHub.png"  width="200" height="200" alt ="The picture is of the github logo, and links to the repository for the graph & MST program"></img></a></div>
 </div>
 <h3 class="w3-center">Reading Buses Project</h3>
 <div class="w3-row">
   <div class="w3-col l6 s12 w3-center"><p>This code gets the scheduled arrival times of buses
   and there actual arrival times, and uses this to work out how likely your
-  bus is to be on time based on historical data, it does this by comapring all of the data for the last two weeks and working an average delay for each stop</p></div>
+  bus is to be on time based on historical data, it does this by comparing all of the data for the last two weeks and working an average delay for each stop</p></div>
   <div class="w3-col l6 s12 w3-center"><p>Link coming soon</p></div>
 </div>
 </div>
@@ -158,16 +157,10 @@ which allows me to get data on all of the train services for the last year,
   </div>
   <p>Made using <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>, HTML, Javascript and CSS</p>
   <p>By Solly Wheeler in 2019</p>
-  <p>Hosted on <a href ="https://pages.github.com/" title = "github pages" class="w3-hover-text-pink"> github pages</a> </p>
+  <p>Hosted on <a href ="https://pages.github.com/" title = "github pages" class="w3-hover-text-pink">    pages</a> </p>
 </footer>
 <script src ="scripts.js"></script>
 
 
 </body>
 </html>
-<!--<script>
-var Days = (new Date() - new Date(2002, 09, 08));
-Days = Math.round(Days/(86400000));
-var Years = Math.floor(Days /(365));
-document.getElementById("demo").innerHTML = Days +" days or" + Years
-</script>-->
