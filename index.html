@@ -75,23 +75,21 @@ which allows me to get data on all of the train services for the last year,
   as well as plotting the delay data on a scatter graph for each service. The data is shown in the users browser,
   I did this by editing html templates I had created in the python script, and by using Plotly's to_html facility for the scatter graphs </p>
   <a href ="example_output.html" style = "font-family: 'Abel'" class="w3-button w3-small w3-white w3-border w3-border-black w3-padding-large ">See Example Output</a></div>
-<div class="w3-col l6 s12 w3-center"><a href ="https://github.com/solomon-wheeler/train_delay"> <img src ="GitHub.png"  width="200" height="200" alt ="The picture is of the github logo, and links to the repository for the train delay program"></img></a></div>
+<div class="w3-col l6 s12 w3-center w3-hover-opacity"><a href ="https://github.com/solomon-wheeler/train_delay"> <img src ="train_prediction.png"  width="200" height="200" alt ="The picture is of the Train Prediction logo, and links to the repository for the train delay program"></img></a></div>
 
 </div>
 <h3 class="w3-center">Train Visualiser </h3>
 <div class="w3-row">
   <div class="w3-col l6 s12 w3-center"><p>This is a program that I wrote which shows all of the trains on the branches that go through Wokingham Station, it gets there live location from the National Rail API and uses this to work out the time of there next stop
   as well as the time of there last stop, it then works out the trains approximate position between stations.
-  The data is visualised using pygame. I made this program quite along time ago, and although It seems to work I haven't done any testing on it,
-  so I'm sure there are lots of bugs I haven't noticed, as well as this the coding is incredibly messy, so enter the github repository at your own risk.
-  The image is of an example output.  </p>
+  The data is visualised using pygame. </p>
 
   <button onclick="document.getElementById('train_modal').style.display='block'" style = "font-family: 'Abel'" class="w3-button w3-small w3-white w3-border w3-border-black w3-padding-large "> See example output</button>
   <div id="train_modal" class="w3-modal">
   <div class="w3-modal-content">
     <div class="w3-container">
-      <span onclick="document.getElementById('train_modal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-      <video controls autoplay >
+      <span onclick="document.getElementById('train_modal').style.display='none'" class="w3-button w3-display-topright w3-xlarge">&times;</span>
+      <video width = "80%" controls autoplay >
         <source src = "trains_visual.mp4" type="video/mp4">
         This video hasn't loaded, this is a video showing the train visualiser program in operation
       </video>
@@ -100,7 +98,7 @@ which allows me to get data on all of the train services for the last year,
   </div>
   </div>
 
-  <div class="w3-col l6 s12 w3-center"><a href ="https://github.com/solomon-wheeler/train_visualiser"> <img src ="GitHub.png"  width="200" height="200" alt ="The picture is of the github logo, and links to the repository for the train visualisation program"></img></a></div>
+  <div class="w3-col l6 s12 w3-center w3-hover-opacity"><a href ="https://github.com/solomon-wheeler/train_visualiser"> <img src ="train_vis.png"  width="200" height="200" alt ="The picture is of the Train Visualiser logo, and links to the repository for the train visualisation program"></img></a></div>
 </div>
 <h3 class="w3-center">Graph & Minimum Spanning tree </h3>
 <div class="w3-row">
@@ -112,8 +110,8 @@ which allows me to get data on all of the train services for the last year,
   <div id="graph_modal" class="w3-modal">
   <div class="w3-modal-content">
     <div class="w3-container">
-      <span onclick="document.getElementById('graph_modal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-      <video controls autoplay >
+      <span onclick="document.getElementById('graph_modal').style.display='none'" class="w3-button w3-display-topright w3-xlarge">&times;</span>
+      <video width = "80%" controls autoplay >
         <source src = "graph.mp4" type="video/mp4">
         This video hasn't loaded, this is a video showing the graph MST program in operation
       </video>
@@ -121,7 +119,7 @@ which allows me to get data on all of the train services for the last year,
   </div>
   </div>
   </div>
-  <div class="w3-col l6 s12 w3-center"><a href ="https://github.com/solomon-wheeler/graph_MST"> <img src ="GitHub.png"  width="200" height="200" alt ="The picture is of the github logo, and links to the repository for the graph & MST program"></img></a></div>
+  <div class="w3-col l6 s12 w3-center  w3-hover-opacity"><a href ="https://github.com/solomon-wheeler/graph_MST"> <img src ="graph.png"  width="200" height="200" alt ="The picture is of the graph logo, and links to the repository for the graph & MST program"></img></a></div>
 </div>
 
   <h3 class="w3-center">The Edge-O-Meter </h3>
@@ -198,7 +196,8 @@ which allows me to get data on all of the train services for the last year,
   </div>
   <p>Made using <a rel="noopener" href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>, HTML, Javascript and CSS</p>
   <p>By Solly Wheeler in 2019</p>
-  <p>Hosted on <a rel="noopener" href ="https://pages.github.com/" title = "github pages" class="w3-hover-text-pink"> github pages</a> </p>
+  <p>Hosted on <a rel="noopener" href ="https://pages.github.com/" title = "Github Pages" class="w3-hover-text-pink"> github pages</a> </p>
+   <p>See the <a class ="w3-hover-text-brown" href="Licenses.html"> Licenses</a></p>
 </footer>
 <script src ="scripts.js"></script>
 
